@@ -1,8 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 /*logo+ttolo*/
 header{
     height: 80px;
@@ -12,4 +8,4 @@ header{
     background-image: url(../img/logo\ copia.png);
     background-size: 40px;
     background-repeat: no-repeat;
-    
+}
