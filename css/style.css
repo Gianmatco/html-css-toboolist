@@ -2,33 +2,128 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 .container{
-    width: 55%;
-    margin: 0 auto;
+    width: 800px;
+    margin: 30px auto;
+    background-color: white;
+    border-radius: 4px;
 }
 /*logo+ttolo*/
 header{
-    width: 200px;
-    height: 80px;
-    padding-left: 40px;   
-    padding-top: 5px;
-    background-size: 30%;
-    background-size: 40px;
-    background-repeat: no-repeat;
+    padding-bottom: 10px;
+    padding-left: 20px;   
+    padding-top: 10px;
+    background-color: white;
 }
-
-header img{
-    width: 55px;
+.middle{
+    vertical-align: middle;
 }
-span{
-    font-size: 26px; 
+div{
+    padding-left: 20px;
+}
+.add-task{
+    background-color:#46adf1 ;
+    color: white;
+    padding: 8px;
+    font-size: 10px;
+    border-radius: 6px;
+}
+.add-section{
+    background-color: white;
+    color: #dde1e4;
+    border-color: #dde1e4;
+    border-radius: 6px;
+    border: 1px solid;
+    padding: 8px;
+    font-size: 10px;
+}
+main{
+    line-height: 200%;
+   
+    
+}
+ol{
+    background-color: white;
+    padding-left: 20px;
+    padding-top: 2px;
+   
     
 
 }
-
-ol{
-    margin-left: 20px;
+.check{
+    color: #82cdbb;
+    border: 1px solid #82cdbb;
+    border-radius: 50%;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    vertical-align: middle;
+}
+.false{
+    color: #f6b0ac;
+    border: 1px solid #f6b0ac;
+    border-radius: 50%;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    vertical-align: middle;
+}
+.buttonblu{
+    background-color: #53b1eb;
+    margin-left: 10px;
+    font-size: 8px;
+    padding: 5px 8px;
+    border-radius: 10px;
+}
+.buttonlilla{
+    background-color: #9c72e4;
+    margin-left: 10px;
+    font-size: 8px;
+    padding: 5px 8px;
+    border-radius: 10px;
+}
+.buttongreen{
+    background-color: #63c0a9;
+    margin-left: 10px;
+    font-size: 8px;
+    padding: 5px 8px;
+    border-radius: 10px;
 
 }
+.buttonorange{
+    background-color: #f29e33;
+    margin-left: 10px;
+    font-size: 8px;
+    padding: 5px 8px;
+    border-radius: 10px;
+
+}
+.buttonpink{
+    background-color: #d763a1;
+    margin-left: 10px;
+    font-size: 8px;
+    padding: 5px 8px;
+    border-radius: 10px;
+
+}
+.buttonlightgreen{
+    background-color: #b1c827;
+    margin-left: 10px;
+    font-size: 8px;
+    padding: 5px 8px;
+    border-radius: 10px;
+
+}
+
+
+
+
+
+
